@@ -1,0 +1,11 @@
+<!--pages/profile/profile.wxml-->
+<view class="avatar">
+  <image src="{{img}}" bindtap="loginHandle"></image>
+</view>
+
+<view class="cells">
+  <view class="item">名称：{{company}}</view>
+  <view class="item">电话：{{phone}}</view>
+  <view class="item">邮箱：{{email}}</view>
+  <navigator class="item location" url="/pages/address/address">地址：{{address}}</navigator>
+</view>
