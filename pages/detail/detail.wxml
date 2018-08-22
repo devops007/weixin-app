@@ -1,2 +1,36 @@
-<!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view>
+    <view class="cover-container">
+        <image src="{{tree.imgpath}}"></image>
+    </view>
+
+    <view class="book-meta">
+        <view class="meta-info">
+            <text class="book-title">{{tree.name}}</text>
+            <text class="other-price">价格：¥ {{tree.price}} /棵</text>
+            <text class="other-meta">数量：{{tree.count}}</text>
+        </view>
+        <view class="range">
+            <!--<text class="score">0</text>-->
+            
+              <block class="star-block" wx:for="{{[1,2,3,4,5]}}" wx:for-index="idx" wx:for-item="i">
+                <view wx:if="{{i < tree.stars}}"><image class="star" src="{{fullStar}}"></image></view>
+                <view wx:elif="{{0.5 == i - tree.stars}}"><image class="star" src="{{halfStar}}">here</image></view>
+                <view wx:else><image class="star" src="{{noStar}}"></image></view>
+              </block>
+            
+            <text class="viewers">推荐指数</text>
+        </view>
+    </view>
+
+    <view class="book-intro">
+        <view class="intro-header"><text>简介</text></view>
+        <text class="intro-content">{{tree.description}}</text>
+    </view>
+
+</view>
+
+<!--
+<loading>
+    加载中...
+</loading>
+-->

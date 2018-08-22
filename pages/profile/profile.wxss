@@ -29,6 +29,11 @@
   font-size: 30rpx;
 }
 
+.telephone {
+  max-width: 50rpx;
+  max-height: 50rpx;
+}
+
 .cells .location::after {
   content: '';
   display: inline-block;

@@ -12,6 +12,15 @@ Page({
     email: "alex104@gmail.com"
   },
 
+  phoneCall: function(e) {
+    wx.makePhoneCall({
+      phoneNumber: e.currentTarget.dataset.replyPhone ,
+      success: function() {
+        console.log("打电话成功")
+      }
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

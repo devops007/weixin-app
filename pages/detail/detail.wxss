@@ -1,1 +1,81 @@
 /* pages/detail/detail.wxss */
+page {
+    background: #EEE;
+}
+.cover-container {
+    height: 500rpx;
+}
+.cover-container image {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.book-meta {
+    position: relative;
+    padding: 20rpx;
+    overflow: hidden;
+}
+.book-meta .range {
+    position: absolute;
+    top: 30rpx;
+    right: 20rpx;
+    width: 180rpx;
+    background: #FFF;
+    padding: 20rpx 10rpx;
+    text-align: center;
+    box-shadow: 2px 2px 10px #CCC;
+}
+.book-meta .meta-info {
+    margin-right: 200rpx;
+}
+.meta-info text {
+    display: block
+}
+.book-title {
+    font-weight: bold;
+    font-size: 50rpx;
+}
+.other-price {
+    padding-top: 10rpx;
+    color: blue;
+    font-size: 30rpx;  
+}
+.other-meta {
+    padding-top: 10rpx;
+    color: #888;
+    font-size: 30rpx;
+}
+.range text {
+    display: block;
+}
+
+.range .starts {
+    font-size: 40rpx;
+}
+.range .viewers {
+    font-size: 25rpx;
+}
+
+.book-intro {
+    padding: 20rpx;
+    font-size: 40rpx;
+}
+.book-intro .intro-header {
+    color: #888
+}
+.book-intro .intro-content {
+    font-size: 25rpx;
+    margin:25px; 
+    line-height: 1rpx;
+}
+
+.star{
+    width:18px;
+    height:18px;
+    float: left;
+    /*margin: 10px;
+    margin: auto;
+    vertical-align: top;
+    vertical-align: middle;*/
+}

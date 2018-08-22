@@ -44,7 +44,7 @@ Page({
         price: 999
       },
       {
-        id: 1,
+        id: 2,
         image: '/images/lists/jushu.jpg',
         name: "榉树",
         description: ["高度:15-20cm", "胸径:10-11cm"],
@@ -52,7 +52,7 @@ Page({
         price: 1000
       },
       {
-        id: 1,
+        id: 3,
         image: '/images/lists/zhuzi.jpg',
         name: "竹子",
         description: ["冠幅:70-80cm", "米径:0.8-6cm", "高度:0.8-8m"],
