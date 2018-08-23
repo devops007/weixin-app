@@ -16,14 +16,15 @@ Page({
    */
   onLoad(options) {
      const slides = [
-       { image: 'http://ww1.sinaimg.cn/mw690/006ThXL5ly1fj7zx3w751j30u00dmgy3.jpg', link: '' },
-       { image: 'http://ww1.sinaimg.cn/mw690/006ThXL5ly1fj6ckx9tlwj30u00fqk8n.jpg', link: '/pages/list/list?cat=10' }
+       { image: '/images/first/title-001.jpg', link: '' },
+       { image: '/images/first/title-002.jpg', link: '' },
+       { image: '/images/first/title-003.jpg', link: '' }
      ]
 
      const categories = [
        { icon: '/images/icons/grid-01.png', text: '香樟', category_id: 1 },
        { icon: '/images/icons/grid-02.png', text: '榉树', category_id: 2 },
-       { icon: '/images/icons/grid-03.png', text: '橄榄树', category_id: 3 },
+       { icon: '/images/icons/grid-03.png', text: '竹子', category_id: 3 },
        { icon: '/images/icons/grid-04.png', text: '樱花树', category_id: 4 },
        { icon: '/images/icons/grid-05.png', text: '桂花树', category_id: 5 },
        { icon: '/images/icons/grid-06.png', text: '榕树', category_id: 6 }

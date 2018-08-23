@@ -30,8 +30,8 @@
         {
           "pagePath": "pages/list/list",
           "text": "品种列表",
-          "iconPath": "images/message.png",
-          "selectedIconPath": "images/message-active.png"
+          "iconPath": "images/list-deactive.png",
+          "selectedIconPath": "images/list-active.png"
         },
         {
           "pagePath": "pages/profile/profile",

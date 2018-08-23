@@ -9,17 +9,17 @@
 </swiper>
 
 <view class="grids">
-  <navigator class="item" wx:for="{{categories}}" wx:key="id" url="/pages/list/list?cat={{item.id}}">
+  <navigator class="item" wx:for="{{categories}}" wx:key="id" url="/pages/detail/detail?item={{item.category_id}}">
     <image src="{{item.icon}}"/>
     <text>{{item.text}}</text>
   </navigator>
 </view>
 
 <view class="links">
-  <navigator url="/pages/list/list?type=recommend">
+  <navigator url="/pages/list/list">
     <image src="/images/link-01.png"/>
   </navigator>
-  <navigator url="/pages/forum/forum">
+  <navigator url="/pages/list/list">
     <image src="/images/link-02.png"/>
   </navigator>
 </view>

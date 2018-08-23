@@ -6,13 +6,13 @@
     <view class="book-meta">
         <view class="meta-info">
             <text class="book-title">{{tree.name}}</text>
-            <text class="other-price">价格：¥ {{tree.price}} /棵</text>
+            <text class="other-price">价格：¥{{tree.price}} /棵</text>
             <text class="other-meta">数量：{{tree.count}}</text>
         </view>
         <view class="range">
             <!--<text class="score">0</text>-->
             
-              <block class="star-block" wx:for="{{[1,2,3,4,5]}}" wx:for-index="idx" wx:for-item="i">
+              <block class="star-block" wx:for="{{[1,2,3,4,5]}}" wx:for-index="idx" wx:for-item="i" wx:key="j">
                 <view wx:if="{{i < tree.stars}}"><image class="star" src="{{fullStar}}"></image></view>
                 <view wx:elif="{{0.5 == i - tree.stars}}"><image class="star" src="{{halfStar}}">here</image></view>
                 <view wx:else><image class="star" src="{{noStar}}"></image></view>
@@ -27,7 +27,19 @@
         <text class="intro-content">{{tree.description}}</text>
     </view>
 
-</view>
+    <view class="book-intro">
+      <view class="intro-header"><text>图片展示</text></view>   
+      <view>
+        <view class= "card" wx:for = "{{tree.imgshow}}" wx:for-item="i" wx:key="j">
+          <!--<view  data-url="#" bindtap = "onItemClick">-->
+             <image class= "image" mode="aspectFill" src="http://cued.xunlei.com/demos/publ/img/P_{{i}}.jpg"/>
+             <view class="title">publish by: @aiming.cao -- 2018-08-23 {{i}}</view>
+          <!--</view>-->
+        </view>
+      </view>
+    </view>
+
+  </view>
 
 <!--
 <loading>
