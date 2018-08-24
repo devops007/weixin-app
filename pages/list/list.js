@@ -1,6 +1,6 @@
 // pages/list/list.js
 const app = getApp()
-const fetch = require('../../utils/fetch')
+//const fetch = require('../../utils/fetch')
 Page({
 
   /**
@@ -39,7 +39,7 @@ Page({
         id: 1,
         image: '/images/lists/xiangzhang.jpg',
         name: "香樟",
-        description: ["米径: 15 - 16cm", "高度: 40 - 50cm"],
+        description: ["米径:15-16cm", "高度:40-50cm"],
         count: "2000",
         price: 999
       },
@@ -112,8 +112,8 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
+  }
+  /*
   showSearchHandle() {
     this.setData({ searchShowed: true })
   },
@@ -125,6 +125,6 @@ Page({
   },
   searchChangeHandle(e) {
     this.setData({ searchText: e.detail.value })
-  }
+  }*/
 
 })

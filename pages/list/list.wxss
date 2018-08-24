@@ -36,7 +36,7 @@
 
 .cells .item .meta .gray .feature {
   margin-top: 10rpx;
-  margin-right: 7rpx;
+  margin-right: 5rpx;
   padding: 0 10rpx;
   background-color: #678;
   border-radius: 30rpx;
