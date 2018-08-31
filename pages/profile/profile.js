@@ -5,11 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    img: "/images/avatar.png",
-    company: "志坤树木种植场",
-    phone: "186-0625-xxxx",
-    address: "嘉兴市秀洲区志坤树木种植场",
-    email: "alex104@gmail.com"
+    img: "/images/avatar.jpg",
+    company: "新勝志坤树木种植场",
+    phone: "186-0625-8988",
+    address: "浙江嘉兴市秀洲区志坤树木种植场",
+    email: "Chom_chang@163.com",
+    imagelist: ["/images/avatar.jpg"]
   },
 
   phoneCall: function(e) {
@@ -20,7 +21,14 @@ Page({
       }
     })
   },
-
+/*
+  loginHandle: function(e) {
+    wx.previewImage({
+      current: this.data.imagelist,
+      urls: this.data.imagelist
+    })
+  },
+*/
   /**
    * 生命周期函数--监听页面加载
    */

@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/list/list",
+    "pages/video/video",
     "pages/detail/detail",
     "pages/profile/profile",
     "pages/address/address"
@@ -9,7 +10,7 @@
   "window": {
     "navigationBarBackgroundColor": "#3a4861",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "苗木推广",
+    "navigationBarTitleText": "志坤树木",
     "backgroundColor": "#bcc0c9",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false,
@@ -24,14 +25,20 @@
         {
           "pagePath": "pages/index/index",
           "text": "首页",
-          "iconPath": "images/home.png",
+          "iconPath": "images/home-deactive.png",
           "selectedIconPath": "images/home-active.png"
         },
         {
           "pagePath": "pages/list/list",
-          "text": "品种列表",
+          "text": "品种",
           "iconPath": "images/list-deactive.png",
           "selectedIconPath": "images/list-active.png"
+        },
+        {
+          "pagePath": "pages/video/video",
+          "text": "视频",
+          "iconPath": "images/video-deactive.png",
+          "selectedIconPath": "images/video-active.png"
         },
         {
           "pagePath": "pages/profile/profile",

@@ -1,20 +1,20 @@
 <!--pages/list/list.wxml-->
 <view class="cells">
-  <navigator class="item" wx:for="{{trees}}" wx:key="id" url="/pages/detail/detail?item={{item.id}}">
+  <navigator class="item" wx:for="{{trees}}" wx:key="unique" url="/pages/detail/detail?item={{item.id}}">
     <image src="{{item.image}}" mode="aspectFill"/>
     <view class="meta">
       <text class="name">树名：{{item.name}}</text>
       <container class="gray">
           <text>规格：</text>
-          <text class="feature" wx:for="{{item.description}}" wx:key="idx" wx:for-item="itemName">{{itemName}}</text>
+          <text class="feature" wx:for="{{item.description}}" wx:key="unique" wx:for-item="itemName">{{itemName}}</text>
       </container>
       <text class="gray">数量：{{item.count}}</text>
-      <text class="gray">价格：¥ {{item.price}} /棵</text>
+      <text class="gray">价格：{{item.price}}</text>
     </view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
   </navigator>
 </view>
 
-<view wx:if="{{hasMore}}" class="loadmore loading">正在加载...</view>
-<view wx:else class="loadmore">没有更多内容了</view>
+
+<view class="loadmore">没有更多内容了</view>
 

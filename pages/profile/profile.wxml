@@ -1,6 +1,6 @@
 <!--pages/profile/profile.wxml-->
 <view class="avatar">
-  <image src="{{img}}" bindtap="loginHandle"></image>
+  <image src="{{img}}"></image>
 </view>
 
 <view class="cells">

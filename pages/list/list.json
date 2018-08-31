@@ -1,5 +1,3 @@
 {
-  "enablePullDownRefresh": true,
-  "onReachBottomDistance": 5,
   "navigationBarTitleText": "品种列表"
 }

@@ -106,10 +106,11 @@ page {
 
 .card .image{
   width:100%;
-  height:240px; 
+  height:480px; 
 }
 
 .card .title {
     padding: 14px;
     font-size: 14px;
+    color: #3e86e7;
 }

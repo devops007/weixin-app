@@ -1,7 +1,7 @@
 // pages/profile/profile.js
 const app = getApp()
 var amapFile = require('../../libs/amap-wx.js'); //高德地图接口
-var config = require('../../libs/config.js'); //key
+//var config = require('../../libs/config.js'); //key
 var markersData = [];
 Page({
 
@@ -31,8 +31,8 @@ Page({
     //var key = config.Config.key;
     var myAmapFun = new amapFile.AMapWX({
       key: "2f97315f94a44a5ffce395b83ae511e2", 
-      latitude: "30.456558", 
-      longitude:"120.406528"
+      latitude: "30.832482", 
+      longitude:"120.623696"
     });
     myAmapFun.getRegeo({
       iconPath: "/images/markers/mark_b.png",
