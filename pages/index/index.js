@@ -29,7 +29,7 @@ Page({
        { icon: '/images/icons/grid-04.png', text: '垂柳', category_id: 4 },
        { icon: '/images/icons/grid-09.png', text: '桂花', category_id: 5 },
        { icon: '/images/icons/grid-07.png', text: '紫薇', category_id: 6 },
-       { icon: '/images/icons/grid-06.png', text: '黄山栾', category_id: 7 },
+       { icon: '/images/icons/grid-06.png', text: '黄山栾树', category_id: 7 },
        { icon: '/images/icons/grid-05.png', text: '无患子', category_id: 8 },
        { icon: '/images/icons/grid-10.png', text: '待定', category_id: 9 }
      ]

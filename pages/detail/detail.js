@@ -98,7 +98,7 @@ Page({
       },
       {
         id: 7,
-        name: "黄山栾",
+        name: "黄山栾树",
         price: "电话商议",
         count: "树源充足",
         stars: 5,

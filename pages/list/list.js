@@ -27,7 +27,7 @@ Page({
         id: 1,
         image: '/images/lists/xiangzhang.jpg',
         name: "香樟",
-        description: ["冠幅:70-80cm", "高度:25-30cm"],
+        description: ["胸径: 10-30cm", "全冠"],
         count: "树源充足",
         price: "电话商议"
       },
@@ -35,7 +35,7 @@ Page({
         id: 2,
         image: '/images/lists/jushu.jpg',
         name: "榉树",
-        description: ["高度:8-9m", "冠幅:4-4.5m", "胸径:19-20cm"],
+        description: ["胸径: 10-20cm", "全冠"],
         count: "树源充足",
         price: "电话商议"
       },
@@ -43,7 +43,7 @@ Page({
         id: 3,
         image: '/images/lists/guangyulan.jpg',
         name: "广玉兰",
-        description: ["冠幅:4-4.5m", "米径:31-32cm", "高度:7-8m"],
+        description: ["胸径: 8-25cm"],
         count: "树源充足",
         price: "电话商议"
       },
@@ -51,7 +51,7 @@ Page({
         id: 4,
         image: '/images/lists/chuiliu.jpg',
         name: "垂柳",
-        description: ["冠幅:3.5-4m", "米径:20-21cm", "高度:5.5-6m"],
+        description: ["胸径: 10-15cm"],
         count: "树源充足",
         price: "电话商议"
       },
@@ -59,7 +59,7 @@ Page({
         id: 5,
         image: '/images/lists/guihua.jpg',
         name: "桂花",
-        description: ["冠幅:3.5-4m", "米径:17-18cm", "高度:3.5-4m"],
+        description: ["冠径: P1.5-5m"],
         count: "树源充足",
         price: "电话商议"
       },
@@ -67,15 +67,15 @@ Page({
         id: 6,
         image: '/images/lists/ziwei.jpg',
         name: "紫薇",
-        description: ["地径:7-7.5cm", "高度:30-40cm"],
+        description: ["胸径: 3-8cm"],
         count: "树源充足",
         price: "电话商议"
       },      
       {
         id: 7,
         image: '/images/lists/huangshanluan.jpg',
-        name: "黄山栾",
-        description: ["冠幅:1.8-2m", "米径:8-8.5cm", "高度:4-4.5m"],
+        name: "黄山栾树",
+        description: ["胸径: 10-18cm", "全冠"],
         count: "树源充足",
         price: "电话商议"
       },
@@ -83,7 +83,7 @@ Page({
         id: 8,
         image: '/images/lists/wuhuanzi.png',
         name: "无患子",
-        description: ["胸径:3-3.5cm", "高度:80-100cm"],
+        description: ["胸径: 10-18cm", "全冠"],
         count: "树源充足",
         price: "电话商议"
       }

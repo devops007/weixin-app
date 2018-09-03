@@ -36,12 +36,12 @@
 
 .cells .item .meta .gray .feature {
   margin-top: 10rpx;
-  margin-right: 5rpx;
+  margin-right: 8rpx;
   padding: 0 10rpx;
   background-color: #678;
   border-radius: 30rpx;
   color: #fff;
-  font-size: 20rpx;
+  font-size: 24rpx;
   text-align: center;
 }
 

@@ -10,7 +10,7 @@ Page({
     phone: "186-0625-8988",
     address: "浙江嘉兴市秀洲区志坤树木种植场",
     email: "Chom_chang@163.com",
-    imagelist: ["/images/avatar.jpg"]
+    imagelist: ["http://res.cloudinary.com/devops007/image/upload/v1535941009/Tree-Show/Profile/QR_code.jpg"]
   },
 
   phoneCall: function(e) {
@@ -21,14 +21,14 @@ Page({
       }
     })
   },
-/*
-  loginHandle: function(e) {
+
+  previewImage: function(e) {
     wx.previewImage({
       current: this.data.imagelist,
       urls: this.data.imagelist
     })
   },
-*/
+
   /**
    * 生命周期函数--监听页面加载
    */
